@@ -5,7 +5,7 @@
 
 ## Start Here: Complete Merged Guide, 4-Part Live Demo Videos & Animated Atlas
 
-- **[Thales_DIS_CI_MAA_Demo_Edition_Student_Complete_Guide.pdf](Thales_DIS_CI_MAA_Demo_Edition_Student_Complete_Guide.pdf)** - Single bookmarked PDF combining your Instructor Profile, Official Participant Guide, **Chapters 1-3 Custom Slides (`145` slides)**, **Multi-Agent Design Patterns & Anti-Patterns (`30` slides)**, and the **4-Part Live Demo Companion & Sandbox Replication Guide**.
+- **[Thales_DIS_CI_MAA_Demo_Edition_Student_Complete_Guide.pdf](Thales_DIS_CI_MAA_Demo_Edition_Student_Complete_Guide.pdf)** - Single bookmarked PDF combining your Instructor Profile, Official Participant Guide, **Chapters 1-3 Custom Slides (`147` slides with 3 Chapter Kahoot! checkpoints)**, **Multi-Agent Design Patterns & Anti-Patterns (`30` slides)**, and the **4-Part Live Demo Companion & Sandbox Replication Guide**.
 - **[4-Part Recorded 30fps Live-Motion Demo Walkthroughs (`demo-walkthroughs/`)](demo-walkthroughs/)** - Actual live video recordings (no static screenshots) captured in `roigcp-imran-ahmad` (`imran@cloudanum.com`), plus the combined [Demo_Complete_All_Parts_Walkthrough.mp4](demo-walkthroughs/Demo_Complete_All_Parts_Walkthrough.mp4).
 - **[Thales_DIS_Animated_Architecture_Atlas.html](Thales_DIS_Animated_Architecture_Atlas.html)** - Single self-contained browser file with **20 live CSS & SMIL animated SVG diagrams**.
 - **[Editable Student PowerPoint Decks (`slides/`)](slides/)** - Widescreen `.pptx` decks embedding **all 4 recorded MP4 demo videos** plus **8 `<10-minute` YouTube concept videos**.

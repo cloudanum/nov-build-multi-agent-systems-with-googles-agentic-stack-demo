@@ -8,13 +8,16 @@
 
 ## Consolidated Demo-Edition Course Assets
 
-- **Master Instructor Guide PDF (Slide-Above-Notes for All `175` Slides + Live Demo Runbook + 12-Q Kahoot + Official Guides):** [Thales_DIS_CI_MAA_Demo_Edition_Instructor_Complete_Guide.pdf](Thales_DIS_CI_MAA_Demo_Edition_Instructor_Complete_Guide.pdf)
+- **Master Instructor Guide PDF (Slide-Above-Notes for All `177` Slides + Live Demo Runbook + 3 Chapter Kahoots + Official Guides):** [Thales_DIS_CI_MAA_Demo_Edition_Instructor_Complete_Guide.pdf](Thales_DIS_CI_MAA_Demo_Edition_Instructor_Complete_Guide.pdf)
 - **Master Student Guide PDF:** [Thales_DIS_CI_MAA_Demo_Edition_Student_Complete_Guide.pdf](../Student-facing/Thales_DIS_CI_MAA_Demo_Edition_Student_Complete_Guide.pdf)
 - **4 Recorded 30fps Live-Motion Demo Videos + Combined Master Video:** [demo-walkthroughs/](demo-walkthroughs/)
 - **Editable Instructor PowerPoint Decks (with Embedded MP4 Demo Slides & 8 YouTube Videos):** [slides/](slides/)
 - **Interactive Animated SVG Architecture Atlas (`20` Live SVGs):** [Thales_DIS_Animated_Architecture_Atlas.html](Thales_DIS_Animated_Architecture_Atlas.html)
 - **Customized 1-Page Instructor Profile:** [instructor-profile.pdf](instructor-profile/instructor-profile.pdf) | [instructor-profile.docx](instructor-profile/instructor-profile.docx)
-- **Live 12-Question Kahoot:** https://create.kahoot.it/details/1346d51c-70bc-4630-ae60-dad821d53395 ([kahoots/README.md](kahoots/README.md))
+- **3 Live Chapter Kahoots (`3 x 10 Qs = 30 Qs` in `create.kahoot.it` under `imran@cloudanum.com`):** Full answer key in [kahoots/README.md](kahoots/README.md)
+  - **Chapter 1 Kahoot (Agentic Stack & Thales Blueprints):** [https://create.kahoot.it/details/c270bb24-0c3d-4a77-a8a4-35cf11ae79f9](https://create.kahoot.it/details/c270bb24-0c3d-4a77-a8a4-35cf11ae79f9) ([Kahoot_CH1_Deck.pptx](kahoots/Kahoot_CH1_Deck.pptx) | [Kahoot_CH1_10Q.xlsx](kahoots/Kahoot_CH1_10Q.xlsx))
+  - **Chapter 2 Kahoot (Data Agent, MCP & Guardrails):** [https://create.kahoot.it/details/eba937e7-0b8a-457e-b1f3-9962edf7feba](https://create.kahoot.it/details/eba937e7-0b8a-457e-b1f3-9962edf7feba) ([Kahoot_CH2_Deck.pptx](kahoots/Kahoot_CH2_Deck.pptx) | [Kahoot_CH2_10Q.xlsx](kahoots/Kahoot_CH2_10Q.xlsx))
+  - **Chapter 3 Kahoot (Orchestration, Agent Engine & RAG):** [https://create.kahoot.it/details/4e2a01f6-03b4-42bb-966c-65b50e26b319](https://create.kahoot.it/details/4e2a01f6-03b4-42bb-966c-65b50e26b319) ([Kahoot_CH3_Deck.pptx](kahoots/Kahoot_CH3_Deck.pptx) | [Kahoot_CH3_10Q.xlsx](kahoots/Kahoot_CH3_10Q.xlsx))
 
 ## Pre-Provisioned Live Demo Endpoints in `roigcp-imran-ahmad` (`imran@cloudanum.com`)
 
@@ -32,17 +35,18 @@ All infrastructure and all 3 collaborating agents are **already deployed and war
 
 ## Four-Hour Live Demo Pacing Plan
 
-- **09:00-09:50 ET - Chapter 1 (`slides/Chapter_01...`):** Welcome, Check-in QR, How the 4-Part Live Demo Works, Participant Guide NotebookLM Flywheel, *30 Agents* Cognitive Loop, ADK + MCP + A2A + Model Armor + OTel, Concept Videos 1-3, and 3 Animated Thales DIS Blueprints.
-- **09:50-10:45 ET - Chapter 2 (`slides/Chapter_02...`):**
+- **09:00-09:50 ET - Chapter 1 (`slides/Chapter_01...`, `51` slides):** Welcome, Check-in QR, How the 4-Part Live Demo Works, Participant Guide NotebookLM Flywheel, *30 Agents* Cognitive Loop, ADK + MCP + A2A + Model Armor + OTel, Concept Videos 1-3, 3 Animated Thales DIS Blueprints, and **Chapter 1 Kahoot! Live (`10 Qs`, ~09:45 ET)**.
+- **09:50-10:45 ET - Chapter 2 (`slides/Chapter_02...`, `48` slides):**
   - **Live Demo Part 1 (`~10 min`):** Tour `roigcp-imran-ahmad.cymbal_meet` in BigQuery Studio, run segment SQL, inspect `mask_emails` in Model Armor, and verify `gcs-mcp-server` on Cloud Run ([Demo_Part_01_Infrastructure_BigQuery_and_Guardrails.mp4](demo-walkthroughs/Demo_Part_01_Infrastructure_BigQuery_and_Guardrails.mp4)).
   - **Concepts & Code:** PTCF Blueprint (*30 Agents* Ch. 3), `McpToolset` OAuth2 + ADC, Threat Taxonomy (*30 Agents* Ch. 4), OTel vs `after_model_callback` ordering.
   - **Live Demo Part 2 (`~15 min`):** Walk `data_agent/agent.py`, run Go A2A Inspector (`What tables are available in cymbal_meet?` + `List the last 5 logins` showing live `####` email redaction), inspect Cloud Trace spans, and invoke Cloud Run `data-agent` with an OIDC Bearer token ([Demo_Part_02_Data_Agent_MCP_Guardrails_and_A2A.mp4](demo-walkthroughs/Demo_Part_02_Data_Agent_MCP_Guardrails_and_A2A.mp4)).
+  - **Chapter 2 Kahoot! Live (`10 Qs`, ~10:40 ET):** Quick interactive checkpoint right before Morning Break!
 - **10:45-10:55 ET - Break 1**
-- **10:55-11:50 ET - Chapter 3A (`slides/Chapter_03...`):**
+- **10:55-11:50 ET - Chapter 3A (`slides/Chapter_03...`, `48` slides total):**
   - **Concepts & Code:** Coordinator Pattern, `_CloudRunAuth` OIDC token flow, `RemoteA2aAgent` + `AgentTool`, Cloud Run vs Vertex AI Agent Engine.
   - **Live Demo Part 3 (`~20 min`):** Run `improve_engagement_agent` live in `adk web` (flagging Pinnacle Financial `21.2%` & Coastal Logistics `CUST-M002` `4.00%` packet loss) and query Reasoning Engine `5657921085157408768` live on Vertex AI Agent Engine ([Demo_Part_03_Orchestrator_ADK_Web_and_Agent_Engine.mp4](demo-walkthroughs/Demo_Part_03_Orchestrator_ADK_Web_and_Agent_Engine.mp4)).
 - **11:50-12:00 ET - Break 2**
 - **12:00-12:40 ET - Chapter 3B (`slides/Chapter_03...`):**
   - **Concepts & Code:** `VertexAiSearchTool(bypass_multi_tools_limit=True)`, `McpToolset(use_id_token=True)` against Cloud Run GCS MCP, WeasyPrint + Out-of-Band V4 Signed URL HTTP PUT.
   - **Live Demo Part 4 (`~18 min`):** Trigger full 12-hop remediation (`Create an intervention PDF for Mid-Market customers with poor device performance`) and open the generated 3-page Coastal Logistics PDF live in Chrome ([Demo_Part_04_RAG_Intervention_Agent_and_Signed_URL_PDF.mp4](demo-walkthroughs/Demo_Part_04_RAG_Intervention_Agent_and_Signed_URL_PDF.mp4)).
-- **12:40-13:00 ET - Design Patterns & Anti-Patterns Companion + Live 12-Q Kahoot + Evaluation:** Review key patterns/anti-patterns from [Thales_DIS_Agentic_Design_Patterns_and_AntiPatterns_Instructor.pptx](slides/Thales_DIS_Agentic_Design_Patterns_and_AntiPatterns_Instructor.pptx), host the 12-Q Kahoot, and collect Qualtrics evaluations!
+- **12:40-13:00 ET - Design Patterns & Anti-Patterns Companion + Chapter 3 Kahoot! Live (`10 Qs`) + Evaluation:** Review key patterns/anti-patterns from [Thales_DIS_Agentic_Design_Patterns_and_AntiPatterns_Instructor.pptx](slides/Thales_DIS_Agentic_Design_Patterns_and_AntiPatterns_Instructor.pptx), host **Chapter 3 Kahoot (`10 Qs`, ~12:42 ET)**, and collect Qualtrics evaluations!
