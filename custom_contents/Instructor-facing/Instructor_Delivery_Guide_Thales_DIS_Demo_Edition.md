@@ -8,6 +8,7 @@
 
 ## Consolidated Demo-Edition Course Assets
 
+- **Standalone Complete Live-Demo Instruction Guide PDF (`roigcp-imran-ahmad`, Instructor Only):** [Instructor_Live_Demo_Guide_roigcp-imran-ahmad.pdf](Instructor_Live_Demo_Guide_roigcp-imran-ahmad.pdf)
 - **Master Instructor Guide PDF (Slide-Above-Notes for All `177` Slides + Live Demo Runbook + 3 Chapter Kahoots + Official Guides):** [Thales_DIS_CI_MAA_Demo_Edition_Instructor_Complete_Guide.pdf](Thales_DIS_CI_MAA_Demo_Edition_Instructor_Complete_Guide.pdf)
 - **Master Student Guide PDF:** [Thales_DIS_CI_MAA_Demo_Edition_Student_Complete_Guide.pdf](../Student-facing/Thales_DIS_CI_MAA_Demo_Edition_Student_Complete_Guide.pdf)
 - **4 Recorded 30fps Live-Motion Demo Videos + Combined Master Video:** [demo-walkthroughs/](demo-walkthroughs/)
